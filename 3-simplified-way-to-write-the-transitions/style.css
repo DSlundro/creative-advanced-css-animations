@@ -1,0 +1,16 @@
+button {
+	height: 90px;
+	width: 290px;
+	font-size: 28px;
+	color: white;
+	border: none;
+	background-color: blue;
+	transition: all 1s ease-in-out 400ms, color 2s ease-in 200ms, font-size 3s ease-out 300ms, border-radius 4s ease-in-out 200ms;
+}
+
+button:hover {
+	background-color: green;
+	color: black;
+	font-size: 2.5rem;
+	border-radius: 50px;
+}
