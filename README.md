@@ -30,14 +30,14 @@ transition: all 1s ease-in-out 400ms;
 ## Transformazioni 2D
 ```scss
 // esempi translate function (px, rem, %)
-transform: translateY(100px);
-transform: translateX(500px);
+transform: translateX(100px);
+transform: translateY(500px);
 transform: translate(100px, 500px);
 transform: translate(-30%, 2rem);
 
 // esempi scale function
-transform: scaleY(1.4);
-transform: scaleX(.4);
+transform: scaleX(1.4);
+transform: scaleY(.4);
 transform: scale(2);
 
 // esempi rotate function (0-360deg, 0-400grad, turn)
@@ -45,4 +45,13 @@ transform: rotate(90deg);
 transform: rotate(-180deg);
 transform: rotate(1turn);
 transform: rotate(-0.5turn);
+
+// esempi skew function (0-360deg)
+transform: skewX(40deg);
+transform: skewY(-30deg);
+transform: skew(20deg, 50deg);
+
+// transform-origin imposta l'origine per le trasformazioni di un elemento
+transform-origin: 50px;
+transform-origin: 20px top;
 ```
