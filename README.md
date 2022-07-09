@@ -25,11 +25,18 @@ transition: background-color 1s ease-in-out 400ms, color 2s ease-in 200ms, font-
 
 // oppure raccogliere tutto insieme con la proprietà all
 transition: all 1s ease-in-out 400ms;
+```
 
+## Transformazioni 2D
+```scss
+// esempi translate function
+transform: translateY(100px);
+transform: translateX(500px);
+transform: translate(100px, 500px);
+transform: translate(-30%, 2rem);
 
-
-
-
-
-
+// esempi scale function
+transform: scaleY(1.4); // più grande rispetto in verticale
+transform: scaleX(.4); // più piccolo in orizzontale
+transform: scale(2); // effetto zoom 
 ```
