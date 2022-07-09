@@ -55,3 +55,16 @@ transform: skew(20deg, 50deg);
 transform-origin: 50px;
 transform-origin: 20px top;
 ```
+
+## Transformazioni 3D
+```scss
+// perspective determina la distanza tra il piano z=0 e l'utente per dare una prospettiva ad un elemento posizionato 3D
+perspective: 500px;
+
+// translateZ function
+transform: translateZ(300px);
+
+// rotate X and Y function
+transform: rotateX(60deg);
+transform: rotateY(40deg);
+```
